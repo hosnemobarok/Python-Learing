@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: #ddd;
+  color: #444;
+  max-width: 1000px;
+  margin: auto;
+}
+.conteiner{
+  overflow: auto;
+}
+.admin-area{
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.admin-area a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+}
+.brand-header{
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("image/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+.logo{
+  font-size: 200%;
+  color: white;
+  font-family: cursive;
+  padding-left: 10px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.menu{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+.menu a{
+    color: black;
+    font-size: 110%;
+    line-height: 50px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.menu a:last-child{
+  float: right;
+}
+
+button{
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  display: flex;
+  margin-left: 50%;
+  margin-top: 15%;
+  padding: 8px 13px;
+  border: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover{
+  background: #fff;
+  transition: all 0.3s;
+  color: black;
+}
+h1{
+  text-align: center;
+  font-family: cursive;
+}
+p{
+  margin-top: 10px;
+  word-spacing: 8px;
+  margin-bottom: 19px;
+  text-align: center;
+}
+.footer{
+  background: #444;
+  color: #ddd;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+}
+form{
+  width: 70%;
+  height: auto;
+  margin: 10px;
+  margin: auto;
+}
+form input{
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  margin-top: 10px;
+}
+textarea{
+  width: 100%;
+  height: 100px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  margin-top: 10px;
+}
+input:last-child{
+  background: #444;
+  color: white;
+  border-radius: 0px;
+  border:none;
+  margin-bottom: 10px;
+}
+#contact{
+  display: none;
+}
