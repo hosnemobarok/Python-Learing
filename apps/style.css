@@ -1,0 +1,87 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background-position: center;
+background-size: cover;
+
+}
+.navbar{
+	background-color: #04695E;
+}
+.navbar p{
+	color: #DDD42D;
+	font-family: Algerian;
+	font-size: 22px;
+	margin:10px;
+}
+
+.box{
+	background-color: #167A6F;
+	background-size: cover;
+	background-position: center;
+	height:auto;
+}
+.navbar button{
+	width: 100%;
+	margin-top: 18px;
+	text-align: center;
+	font-size: 17px;
+}
+
+button.accordion {
+    background-color: #004d4d;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border:1px solid #888;
+    font-size: 14px;
+    border-radius: 50px 50px 50px;
+}
+.accordion{
+	padding:40px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #003333;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel{
+    padding: 0 18px;
+    display: none;
+    text-align: center;
+}
+.panel p{
+	box-shadow: 0 4px 8px 0 rgba(0.5,0.5,0.5,0.5);
+    transition: 0.3s;
+    margin: 10px;
+    padding:10px 20px 10px;
+}
+.panel p:hover{
+	box-shadow: 0 8px 16px 0 rgba(9,0,0,0.9);
+}
+
+audio{
+	width: 75%;
+	background-color: #123;
+	margin-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0.5,0.5,0.5,0.5);
+	border-radius: 2px;
+}
+audio:hover{
+	background-color:red;
+	box-shadow: 0 8px 16px 0 rgba(9,0,0,0.9);
+}
+/* Add rounded corners to the top left and the top right corner of the image */
+.footer{
+	height: 50px;
+	background-color: #000;
+	color: #ccc;
+}
