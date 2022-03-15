@@ -1,2 +1,2 @@
 # Python Learning
-I came to the world of programming with this website. It took 15 long to create this website. Although the code implementation was not good, I was very lucky to finally be able to create this website.
+I came into the world of programming by creating this website. This website took 15 days to create. Although the code implementation was not good, I was very happy to create this website. And learned a lot.
